@@ -10,7 +10,7 @@ html{
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: aliceblue;
+    background-color: rgb(199, 204, 209);
 }
 ul,
 ol {
@@ -25,6 +25,7 @@ ol {
 .main-header{
     background-color: white;
     padding: 20px 12px;
+    margin-bottom: 32px;
 }
 
 .user-name {
@@ -37,4 +38,43 @@ ol {
 
 .icon, .user-name{
     vertical-align: middle;
+}
+
+.cardA{
+    background-color: white;
+    max-width: 600px;
+    border-radius: 20px 20px 0px 0px;
+    padding: 16px;
+    margin: 0 auto;
+    
+}
+.cardB{
+    background-color: white;
+    max-width: 600px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.blue-button{
+    font-size: 15px;
+  background: rgb(77, 168, 221);
+  color: white;
+  padding: 10px 16px;
+  padding-left: 14px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.white-button {  
+font-size: 15px;
+background: rgb(241, 241, 241);
+color: rgb(185, 185, 185);
+padding: 10px 16px;
+padding-left: 14px;
+border-color: rgb(192, 191, 191);
+border: none;
+border-radius: 16px;
+cursor: pointer;
 }
