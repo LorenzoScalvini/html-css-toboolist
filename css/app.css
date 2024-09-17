@@ -15,8 +15,12 @@ body{
 ul,
 ol {
 	list-style: none;
-    font-size: 16px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 16px;
+}
+
+li {
+    margin-bottom: 24px;
 }
 
 h2{
@@ -59,7 +63,7 @@ h2{
     max-width: 600px;
     border-radius: 0px 0px 20px 20px;
     padding: 16px;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
 .blue-button{
@@ -83,4 +87,58 @@ border-color: rgb(192, 191, 191);
 border: none;
 border-radius: 16px;
 cursor: pointer;
+}
+
+.editorial{
+    color: white;
+    background-color: cornflowerblue;
+    display: inline-block;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.goals{
+    color: white;
+    background-color: rgb(164, 100, 237);
+    display: inline-block;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.recruiting{
+    color: white;
+    background-color: rgb(100, 237, 191);
+    display: inline-block;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.mobile{
+    color: white;
+    background-color: rgb(237, 205, 100);
+    display: inline-block;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.website{
+    color: white;
+    background-color: rgb(237, 100, 157);
+    display: inline-block;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.sales{
+    color: white;
+    background-color: rgb(143, 237, 100);
+    display: inline-block;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 20px 20px 20px 20px;
 }
